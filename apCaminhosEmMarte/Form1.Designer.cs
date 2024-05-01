@@ -66,11 +66,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tpCidades);
             this.tabControl1.Controls.Add(this.tpCaminhos);
-            this.tabControl1.Location = new System.Drawing.Point(5, 2);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Location = new System.Drawing.Point(4, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(908, 444);
+            this.tabControl1.Size = new System.Drawing.Size(681, 361);
             this.tabControl1.TabIndex = 0;
             // 
             // tpCidades
@@ -88,11 +87,10 @@
             this.tpCidades.Controls.Add(this.label2);
             this.tpCidades.Controls.Add(this.label1);
             this.tpCidades.Controls.Add(this.groupBox1);
-            this.tpCidades.Location = new System.Drawing.Point(4, 25);
-            this.tpCidades.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpCidades.Location = new System.Drawing.Point(4, 22);
             this.tpCidades.Name = "tpCidades";
-            this.tpCidades.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tpCidades.Size = new System.Drawing.Size(900, 415);
+            this.tpCidades.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tpCidades.Size = new System.Drawing.Size(673, 335);
             this.tpCidades.TabIndex = 0;
             this.tpCidades.Text = "Cidades";
             this.tpCidades.UseVisualStyleBackColor = true;
@@ -103,10 +101,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pbMapa.Image = ((System.Drawing.Image)(resources.GetObject("pbMapa.Image")));
-            this.pbMapa.Location = new System.Drawing.Point(367, 74);
-            this.pbMapa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMapa.Location = new System.Drawing.Point(275, 60);
             this.pbMapa.Name = "pbMapa";
-            this.pbMapa.Size = new System.Drawing.Size(527, 324);
+            this.pbMapa.Size = new System.Drawing.Size(395, 263);
             this.pbMapa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbMapa.TabIndex = 12;
             this.pbMapa.TabStop = false;
@@ -117,22 +114,20 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lsbCidades.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsbCidades.FormattingEnabled = true;
-            this.lsbCidades.ItemHeight = 16;
-            this.lsbCidades.Location = new System.Drawing.Point(13, 238);
-            this.lsbCidades.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lsbCidades.ItemHeight = 14;
+            this.lsbCidades.Location = new System.Drawing.Point(10, 193);
             this.lsbCidades.Name = "lsbCidades";
             this.lsbCidades.ScrollAlwaysVisible = true;
-            this.lsbCidades.Size = new System.Drawing.Size(344, 148);
+            this.lsbCidades.Size = new System.Drawing.Size(259, 116);
             this.lsbCidades.Sorted = true;
             this.lsbCidades.TabIndex = 11;
             // 
             // btnListar
             // 
             this.btnListar.Image = ((System.Drawing.Image)(resources.GetObject("btnListar.Image")));
-            this.btnListar.Location = new System.Drawing.Point(197, 192);
-            this.btnListar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnListar.Location = new System.Drawing.Point(148, 156);
             this.btnListar.Name = "btnListar";
-            this.btnListar.Size = new System.Drawing.Size(53, 37);
+            this.btnListar.Size = new System.Drawing.Size(40, 30);
             this.btnListar.TabIndex = 10;
             this.btnListar.UseVisualStyleBackColor = true;
             this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
@@ -140,20 +135,18 @@
             // btnBuscar
             // 
             this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
-            this.btnBuscar.Location = new System.Drawing.Point(136, 192);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Location = new System.Drawing.Point(102, 156);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(53, 37);
+            this.btnBuscar.Size = new System.Drawing.Size(40, 30);
             this.btnBuscar.TabIndex = 9;
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnRemover
             // 
-            this.btnRemover.Location = new System.Drawing.Point(75, 192);
-            this.btnRemover.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRemover.Location = new System.Drawing.Point(56, 156);
             this.btnRemover.Name = "btnRemover";
-            this.btnRemover.Size = new System.Drawing.Size(53, 37);
+            this.btnRemover.Size = new System.Drawing.Size(40, 30);
             this.btnRemover.TabIndex = 8;
             this.btnRemover.Text = "-";
             this.btnRemover.UseVisualStyleBackColor = true;
@@ -161,10 +154,9 @@
             // 
             // btnInserir
             // 
-            this.btnInserir.Location = new System.Drawing.Point(13, 192);
-            this.btnInserir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInserir.Location = new System.Drawing.Point(10, 156);
             this.btnInserir.Name = "btnInserir";
-            this.btnInserir.Size = new System.Drawing.Size(53, 37);
+            this.btnInserir.Size = new System.Drawing.Size(40, 30);
             this.btnInserir.TabIndex = 7;
             this.btnInserir.Text = "+";
             this.btnInserir.UseVisualStyleBackColor = true;
@@ -173,57 +165,51 @@
             // udY
             // 
             this.udY.DecimalPlaces = 5;
-            this.udY.Location = new System.Drawing.Point(75, 155);
-            this.udY.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.udY.Location = new System.Drawing.Point(56, 126);
             this.udY.Name = "udY";
-            this.udY.Size = new System.Drawing.Size(100, 22);
+            this.udY.Size = new System.Drawing.Size(75, 20);
             this.udY.TabIndex = 6;
             // 
             // udX
             // 
             this.udX.DecimalPlaces = 5;
-            this.udX.Location = new System.Drawing.Point(75, 123);
-            this.udX.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.udX.Location = new System.Drawing.Point(56, 100);
             this.udX.Name = "udX";
-            this.udX.Size = new System.Drawing.Size(100, 22);
+            this.udX.Size = new System.Drawing.Size(75, 20);
             this.udX.TabIndex = 5;
             // 
             // txtCidade
             // 
-            this.txtCidade.Location = new System.Drawing.Point(75, 87);
-            this.txtCidade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCidade.Location = new System.Drawing.Point(56, 71);
             this.txtCidade.MaxLength = 15;
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(132, 22);
+            this.txtCidade.Size = new System.Drawing.Size(100, 20);
             this.txtCidade.TabIndex = 4;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 158);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(7, 128);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(19, 16);
+            this.label3.Size = new System.Drawing.Size(17, 13);
             this.label3.TabIndex = 3;
             this.label3.Text = "Y:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 126);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(7, 102);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 16);
+            this.label2.Size = new System.Drawing.Size(17, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "X:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 91);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(7, 74);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 16);
+            this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Cidade:";
             // 
@@ -237,11 +223,9 @@
             this.groupBox1.Controls.Add(this.rbHashQuadratico);
             this.groupBox1.Controls.Add(this.rbHashLinear);
             this.groupBox1.Controls.Add(this.rbBucketHash);
-            this.groupBox1.Location = new System.Drawing.Point(5, 5);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(889, 66);
+            this.groupBox1.Size = new System.Drawing.Size(667, 54);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = " Técnica de Hash desejada ";
@@ -249,10 +233,9 @@
             // btnLerArquivo
             // 
             this.btnLerArquivo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLerArquivo.Location = new System.Drawing.Point(787, 20);
-            this.btnLerArquivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLerArquivo.Location = new System.Drawing.Point(590, 16);
             this.btnLerArquivo.Name = "btnLerArquivo";
-            this.btnLerArquivo.Size = new System.Drawing.Size(95, 28);
+            this.btnLerArquivo.Size = new System.Drawing.Size(71, 23);
             this.btnLerArquivo.TabIndex = 4;
             this.btnLerArquivo.Text = "Ler Arquivo";
             this.btnLerArquivo.UseVisualStyleBackColor = true;
@@ -261,10 +244,9 @@
             // rbHashDuplo
             // 
             this.rbHashDuplo.AutoSize = true;
-            this.rbHashDuplo.Location = new System.Drawing.Point(499, 23);
-            this.rbHashDuplo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbHashDuplo.Location = new System.Drawing.Point(374, 19);
             this.rbHashDuplo.Name = "rbHashDuplo";
-            this.rbHashDuplo.Size = new System.Drawing.Size(99, 20);
+            this.rbHashDuplo.Size = new System.Drawing.Size(81, 17);
             this.rbHashDuplo.TabIndex = 3;
             this.rbHashDuplo.Text = "Hash Duplo";
             this.rbHashDuplo.UseVisualStyleBackColor = true;
@@ -272,10 +254,9 @@
             // rbHashQuadratico
             // 
             this.rbHashQuadratico.AutoSize = true;
-            this.rbHashQuadratico.Location = new System.Drawing.Point(300, 23);
-            this.rbHashQuadratico.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbHashQuadratico.Location = new System.Drawing.Point(225, 19);
             this.rbHashQuadratico.Name = "rbHashQuadratico";
-            this.rbHashQuadratico.Size = new System.Drawing.Size(164, 20);
+            this.rbHashQuadratico.Size = new System.Drawing.Size(131, 17);
             this.rbHashQuadratico.TabIndex = 2;
             this.rbHashQuadratico.Text = "Sondagem Quadrática";
             this.rbHashQuadratico.UseVisualStyleBackColor = true;
@@ -283,10 +264,9 @@
             // rbHashLinear
             // 
             this.rbHashLinear.AutoSize = true;
-            this.rbHashLinear.Location = new System.Drawing.Point(148, 23);
-            this.rbHashLinear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbHashLinear.Location = new System.Drawing.Point(111, 19);
             this.rbHashLinear.Name = "rbHashLinear";
-            this.rbHashLinear.Size = new System.Drawing.Size(135, 20);
+            this.rbHashLinear.Size = new System.Drawing.Size(108, 17);
             this.rbHashLinear.TabIndex = 1;
             this.rbHashLinear.Text = "Sondagem Linear";
             this.rbHashLinear.UseVisualStyleBackColor = true;
@@ -295,10 +275,9 @@
             // 
             this.rbBucketHash.AutoSize = true;
             this.rbBucketHash.Checked = true;
-            this.rbBucketHash.Location = new System.Drawing.Point(21, 23);
-            this.rbBucketHash.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rbBucketHash.Location = new System.Drawing.Point(16, 19);
             this.rbBucketHash.Name = "rbBucketHash";
-            this.rbBucketHash.Size = new System.Drawing.Size(104, 20);
+            this.rbBucketHash.Size = new System.Drawing.Size(87, 17);
             this.rbBucketHash.TabIndex = 0;
             this.rbBucketHash.TabStop = true;
             this.rbBucketHash.Text = "Bucket Hash";
@@ -306,11 +285,10 @@
             // 
             // tpCaminhos
             // 
-            this.tpCaminhos.Location = new System.Drawing.Point(4, 25);
-            this.tpCaminhos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tpCaminhos.Location = new System.Drawing.Point(4, 22);
             this.tpCaminhos.Name = "tpCaminhos";
-            this.tpCaminhos.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tpCaminhos.Size = new System.Drawing.Size(900, 415);
+            this.tpCaminhos.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tpCaminhos.Size = new System.Drawing.Size(673, 335);
             this.tpCaminhos.TabIndex = 1;
             this.tpCaminhos.Text = "Caminhos";
             this.tpCaminhos.UseVisualStyleBackColor = true;
@@ -322,13 +300,12 @@
             // 
             // FrmCaminhos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(912, 447);
+            this.ClientSize = new System.Drawing.Size(684, 363);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmCaminhos";
-            this.Text = "Caminhos em Marte - Ra1 - Ra2";
+            this.Text = "Caminhos em Marte - 23509 - 23532";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmCaminhos_FormClosing);
             this.tabControl1.ResumeLayout(false);
             this.tpCidades.ResumeLayout(false);

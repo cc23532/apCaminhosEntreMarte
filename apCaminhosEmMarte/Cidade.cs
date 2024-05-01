@@ -56,7 +56,7 @@ namespace apCaminhosEmMarte
     public void GravarDados(StreamWriter arquivo)
     {
       if (arquivo != null)  // está aberto para escrita
-         arquivo.WriteLine($"{NomeCidade}{X:7.5f}{Y:7.5f}");
+         arquivo.WriteLine($"{NomeCidade}{X:0.00000}{Y:0.00000}");
     }
 
     public void LerRegistro(StreamReader arquivo)
@@ -74,7 +74,12 @@ namespace apCaminhosEmMarte
         }
     }
 
-    public override string ToString()
+        public int CompareTo(Cidade outra)  // <0, ==0, >0
+        {
+            return this.nomeCidade.CompareTo(outra.nomeCidade);
+        }
+
+        public override string ToString()
     {
       return NomeCidade + " " + X + " " + Y;
     }

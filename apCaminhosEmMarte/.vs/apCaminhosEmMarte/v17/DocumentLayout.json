@@ -1,12 +1,52 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\git\\2o-ano\\estruturaDeDados\\Projetos\\apCaminhosEmMarte\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\git\\apCaminhosEntreMarte\\apCaminhosEmMarte\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFF72FC-D969-44C6-9D55-90B066379B1F}|apCaminhosEmMarte.csproj|c:\\users\\mathe\\onedrive\\\u00E1rea de trabalho\\git\\apcaminhosentremarte\\apcaminhosemmarte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFF72FC-D969-44C6-9D55-90B066379B1F}|apCaminhosEmMarte.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFF72FC-D969-44C6-9D55-90B066379B1F}|apCaminhosEmMarte.csproj|C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\git\\apCaminhosEntreMarte\\apCaminhosEmMarte\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6BFF72FC-D969-44C6-9D55-90B066379B1F}|apCaminhosEmMarte.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\git\\apCaminhosEntreMarte\\apCaminhosEmMarte\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\git\\apCaminhosEntreMarte\\apCaminhosEmMarte\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAswKYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T18:07:49.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\git\\apCaminhosEntreMarte\\apCaminhosEmMarte\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\\u00C1rea de Trabalho\\git\\2o-ano\\estruturaDeDados\\Projetos\\apCaminhosEmMarte\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\2o-ano\\estruturaDeDados\\Projetos\\apCaminhosEmMarte\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T18:07:43.987Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

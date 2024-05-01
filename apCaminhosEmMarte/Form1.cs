@@ -13,12 +13,16 @@ namespace apCaminhosEmMarte
 {
   public partial class FrmCaminhos : Form
   {
-    public FrmCaminhos()
-    {
-      InitializeComponent();
-    }
+        SaveFileDialog dlgSalvar;
 
-    ITabelaDeHash<Cidade> tabela;
+        public FrmCaminhos()
+    {
+          InitializeComponent();
+          dlgSalvar = new SaveFileDialog();
+
+     }
+
+        ITabelaDeHash<Cidade> tabela;
 
     private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
     {
@@ -62,13 +66,36 @@ namespace apCaminhosEmMarte
 
         private void FrmCaminhos_FormClosing(object sender, FormClosingEventArgs e)
         {
-          // abrir o arquivo para saida, se houver um arquivo selecionado
-          // obter todo o conteúdo da tabela de hash
-          // percorrer o conteúdo da tabela de hash, acessando
-          // cada cidade individualmente e usar esse objeto Cidade
-          // para gravar seus próprios dados no arquivo
-          // fechar o arquivo ao final do percurso
+            if (tabela != null)
+            {
+                if (dlgSalvar.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        using (StreamWriter arquivoSaida = new StreamWriter(dlgSalvar.FileName))
+                        {
+                            var conteudo = tabela.Conteudo();
+
+                            foreach (var cidade in conteudo)
+                            {
+                                cidade.GravarDados(arquivoSaida);
+                            }
+                        }
+
+                        MessageBox.Show("Dados salvos com sucesso!");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Ocorreu um erro ao salvar os dados: {ex.Message}");
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Não há dados para salvar.");
+            }
         }
+
 
         private void btnInserir_Click(object sender, EventArgs e)
         {
