@@ -28,3 +28,13 @@ C:\Users\u23532\Documents\2o-ano\estruturaDeDados\Projetos\apCaminhosEmMarte\obj
 C:\Users\u23532\Documents\2o-ano\estruturaDeDados\Projetos\apCaminhosEmMarte\obj\Debug\apCaminhosEmMarte.csproj.CoreCompileInputs.cache
 C:\Users\u23532\Documents\2o-ano\estruturaDeDados\Projetos\apCaminhosEmMarte\obj\Debug\apCaminhosEmMarte.exe
 C:\Users\u23532\Documents\2o-ano\estruturaDeDados\Projetos\apCaminhosEmMarte\obj\Debug\apCaminhosEmMarte.pdb
+C:\Users\u23509\Desktop\apCaminhosEntreMarte-main\apCaminhosEmMarte\bin\Debug\apCaminhosEmMarte.exe.config
+C:\Users\u23509\Desktop\apCaminhosEntreMarte-main\apCaminhosEmMarte\bin\Debug\apCaminhosEmMarte.exe
+C:\Users\u23509\Desktop\apCaminhosEntreMarte-main\apCaminhosEmMarte\bin\Debug\apCaminhosEmMarte.pdb
+C:\Users\u23509\Desktop\apCaminhosEntreMarte-main\apCaminhosEmMarte\obj\Debug\apCaminhosEmMarte.csproj.AssemblyReference.cache
+C:\Users\u23509\Desktop\apCaminhosEntreMarte-main\apCaminhosEmMarte\obj\Debug\apCaminhosEmMarte.FrmCaminhos.resources
+C:\Users\u23509\Desktop\apCaminhosEntreMarte-main\apCaminhosEmMarte\obj\Debug\apCaminhosEmMarte.Properties.Resources.resources
+C:\Users\u23509\Desktop\apCaminhosEntreMarte-main\apCaminhosEmMarte\obj\Debug\apCaminhosEmMarte.csproj.GenerateResource.cache
+C:\Users\u23509\Desktop\apCaminhosEntreMarte-main\apCaminhosEmMarte\obj\Debug\apCaminhosEmMarte.csproj.CoreCompileInputs.cache
+C:\Users\u23509\Desktop\apCaminhosEntreMarte-main\apCaminhosEmMarte\obj\Debug\apCaminhosEmMarte.exe
+C:\Users\u23509\Desktop\apCaminhosEntreMarte-main\apCaminhosEmMarte\obj\Debug\apCaminhosEmMarte.pdb

@@ -61,6 +61,7 @@ namespace apCaminhosEmMarte
             }
             AtualizarListaCidades();
             arquivo.Close();
+            DesenharPontos(pbMapa.CreateGraphics());
           }
         }
 
@@ -93,6 +94,29 @@ namespace apCaminhosEmMarte
             else
             {
                 MessageBox.Show("Não há dados para salvar.");
+            }
+        }
+
+        private void DesenharPontos(Graphics g)
+        {
+            if (tabela != null)
+            {
+                var conteudo = tabela.Conteudo();
+                Brush brush = Brushes.Black;
+                int pontoSize = 7;
+
+                double escalaX = pbMapa.Width;
+                double escalaY = pbMapa.Height;
+
+                foreach(var cidade in conteudo)
+                {
+                    int x = (int)(cidade.X * escalaX);
+                    int y = (int)(cidade.Y * escalaY);
+
+                    g.FillEllipse(brush, x - pontoSize / 2, y - pontoSize / 2, pontoSize, pontoSize);
+                    g.DrawString(cidade.NomeCidade, Font, brush, x + pontoSize, y);
+                }
+
             }
         }
 

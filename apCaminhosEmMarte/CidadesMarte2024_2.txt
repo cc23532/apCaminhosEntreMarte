@@ -13,9 +13,11 @@ Arrakeen       0,052980,48682
 Burroughs      0,712650,37939
 Tharsis        0,129640,39502
 Echus Overlook 0,241940,35498
+James          0,193560,78345
 Temperan a     0,513430,67822
 Gondor         0,933110,58545
 Senzeni Na     0,189210,66260
+Davi           0,691430,72345
 Acheron        0,113530,28857
 Rowan          0,565670,66553
 Cairo          0,216060,51025

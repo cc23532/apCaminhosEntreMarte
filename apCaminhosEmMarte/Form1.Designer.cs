@@ -89,7 +89,7 @@
             this.tpCidades.Controls.Add(this.groupBox1);
             this.tpCidades.Location = new System.Drawing.Point(4, 22);
             this.tpCidades.Name = "tpCidades";
-            this.tpCidades.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tpCidades.Padding = new System.Windows.Forms.Padding(3);
             this.tpCidades.Size = new System.Drawing.Size(673, 335);
             this.tpCidades.TabIndex = 0;
             this.tpCidades.Text = "Cidades";
@@ -287,7 +287,7 @@
             // 
             this.tpCaminhos.Location = new System.Drawing.Point(4, 22);
             this.tpCaminhos.Name = "tpCaminhos";
-            this.tpCaminhos.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tpCaminhos.Padding = new System.Windows.Forms.Padding(3);
             this.tpCaminhos.Size = new System.Drawing.Size(673, 335);
             this.tpCaminhos.TabIndex = 1;
             this.tpCaminhos.Text = "Caminhos";
