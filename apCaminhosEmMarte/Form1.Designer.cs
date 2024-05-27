@@ -51,12 +51,32 @@
             this.rbBucketHash = new System.Windows.Forms.RadioButton();
             this.tpCaminhos = new System.Windows.Forms.TabPage();
             this.dlgAbrir = new System.Windows.Forms.OpenFileDialog();
+            this.dgvMelhorCaminho = new System.Windows.Forms.DataGridView();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dgvCaminhos = new System.Windows.Forms.DataGridView();
+            this.btnAlterarCaminho = new System.Windows.Forms.Button();
+            this.btnExcluirCaminho = new System.Windows.Forms.Button();
+            this.btnIncluirCaminho = new System.Windows.Forms.Button();
+            this.udDistancia = new System.Windows.Forms.NumericUpDown();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cbxDestino = new System.Windows.Forms.ComboBox();
+            this.cbxOrigem = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tpCidades.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbMapa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.udY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.udX)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.tpCaminhos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMelhorCaminho)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCaminhos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udDistancia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -285,6 +305,9 @@
             // 
             // tpCaminhos
             // 
+            this.tpCaminhos.Controls.Add(this.pictureBox1);
+            this.tpCaminhos.Controls.Add(this.dgvMelhorCaminho);
+            this.tpCaminhos.Controls.Add(this.groupBox2);
             this.tpCaminhos.Location = new System.Drawing.Point(4, 22);
             this.tpCaminhos.Name = "tpCaminhos";
             this.tpCaminhos.Padding = new System.Windows.Forms.Padding(3);
@@ -297,6 +320,144 @@
             // 
             this.dlgAbrir.DefaultExt = "*.txt";
             this.dlgAbrir.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
+            // 
+            // dgvMelhorCaminho
+            // 
+            this.dgvMelhorCaminho.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvMelhorCaminho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMelhorCaminho.Location = new System.Drawing.Point(270, 276);
+            this.dgvMelhorCaminho.Name = "dgvMelhorCaminho";
+            this.dgvMelhorCaminho.Size = new System.Drawing.Size(401, 52);
+            this.dgvMelhorCaminho.TabIndex = 18;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.dgvCaminhos);
+            this.groupBox2.Controls.Add(this.btnAlterarCaminho);
+            this.groupBox2.Controls.Add(this.btnExcluirCaminho);
+            this.groupBox2.Controls.Add(this.btnIncluirCaminho);
+            this.groupBox2.Controls.Add(this.udDistancia);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.cbxDestino);
+            this.groupBox2.Controls.Add(this.cbxOrigem);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(2, 7);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(262, 320);
+            this.groupBox2.TabIndex = 17;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Caminhos";
+            // 
+            // dgvCaminhos
+            // 
+            this.dgvCaminhos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCaminhos.Location = new System.Drawing.Point(0, 154);
+            this.dgvCaminhos.Name = "dgvCaminhos";
+            this.dgvCaminhos.Size = new System.Drawing.Size(256, 166);
+            this.dgvCaminhos.TabIndex = 10;
+            // 
+            // btnAlterarCaminho
+            // 
+            this.btnAlterarCaminho.Location = new System.Drawing.Point(232, 113);
+            this.btnAlterarCaminho.Name = "btnAlterarCaminho";
+            this.btnAlterarCaminho.Size = new System.Drawing.Size(27, 23);
+            this.btnAlterarCaminho.TabIndex = 9;
+            this.btnAlterarCaminho.Text = "#";
+            this.btnAlterarCaminho.UseVisualStyleBackColor = true;
+            // 
+            // btnExcluirCaminho
+            // 
+            this.btnExcluirCaminho.Location = new System.Drawing.Point(199, 113);
+            this.btnExcluirCaminho.Name = "btnExcluirCaminho";
+            this.btnExcluirCaminho.Size = new System.Drawing.Size(27, 23);
+            this.btnExcluirCaminho.TabIndex = 8;
+            this.btnExcluirCaminho.Text = "-";
+            this.btnExcluirCaminho.UseVisualStyleBackColor = true;
+            // 
+            // btnIncluirCaminho
+            // 
+            this.btnIncluirCaminho.Location = new System.Drawing.Point(166, 113);
+            this.btnIncluirCaminho.Name = "btnIncluirCaminho";
+            this.btnIncluirCaminho.Size = new System.Drawing.Size(27, 23);
+            this.btnIncluirCaminho.TabIndex = 7;
+            this.btnIncluirCaminho.Text = "+";
+            this.btnIncluirCaminho.UseVisualStyleBackColor = true;
+            // 
+            // udDistancia
+            // 
+            this.udDistancia.Location = new System.Drawing.Point(87, 110);
+            this.udDistancia.Name = "udDistancia";
+            this.udDistancia.Size = new System.Drawing.Size(75, 24);
+            this.udDistancia.TabIndex = 6;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(7, 113);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(73, 18);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "Distância:";
+            // 
+            // cbxDestino
+            // 
+            this.cbxDestino.FormattingEnabled = true;
+            this.cbxDestino.Location = new System.Drawing.Point(137, 74);
+            this.cbxDestino.Name = "cbxDestino";
+            this.cbxDestino.Size = new System.Drawing.Size(121, 26);
+            this.cbxDestino.TabIndex = 4;
+            // 
+            // cbxOrigem
+            // 
+            this.cbxOrigem.FormattingEnabled = true;
+            this.cbxOrigem.Location = new System.Drawing.Point(10, 74);
+            this.cbxOrigem.Name = "cbxOrigem";
+            this.cbxOrigem.Size = new System.Drawing.Size(121, 26);
+            this.cbxOrigem.TabIndex = 3;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(134, 52);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(59, 18);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Destino";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(7, 52);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(57, 18);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Origem";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(7, 20);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(68, 18);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Ligações";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(270, 7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(395, 263);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
             // 
             // FrmCaminhos
             // 
@@ -315,6 +476,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.udX)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.tpCaminhos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMelhorCaminho)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCaminhos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.udDistancia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
     }
@@ -343,6 +511,20 @@
     private System.Windows.Forms.ListBox lsbCidades;
     private System.Windows.Forms.PictureBox pbMapa;
     private System.Windows.Forms.OpenFileDialog dlgAbrir;
-  }
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridView dgvMelhorCaminho;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.DataGridView dgvCaminhos;
+        private System.Windows.Forms.Button btnAlterarCaminho;
+        private System.Windows.Forms.Button btnExcluirCaminho;
+        private System.Windows.Forms.Button btnIncluirCaminho;
+        private System.Windows.Forms.NumericUpDown udDistancia;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox cbxDestino;
+        private System.Windows.Forms.ComboBox cbxOrigem;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+    }
 }
 
