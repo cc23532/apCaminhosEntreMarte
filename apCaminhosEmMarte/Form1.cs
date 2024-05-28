@@ -62,7 +62,9 @@ namespace apCaminhosEmMarte
             AtualizarListaCidades();
             arquivo.Close();
             DesenharPontos(pbMapa.CreateGraphics());
-          }
+            DesenharPontos(pbMapaCaminhos.CreateGraphics());
+
+            }
         }
 
         private void FrmCaminhos_FormClosing(object sender, FormClosingEventArgs e)
